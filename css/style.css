@@ -347,7 +347,8 @@ h1, h2, h3, h4 {
 
 .lang-dropdown a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.65rem 1rem;
+  min-height: 44px;
   font-size: 0.82rem;
   color: var(--text-light);
   transition: background 0.2s;
@@ -733,15 +734,49 @@ h1, h2, h3, h4 {
   color: rgba(255, 255, 255, 0.4);
 }
 
-/* --- Hide Google Translate Bar --- */
-.goog-te-banner-frame,
-.skiptranslate,
-#goog-gt-tt {
-  display: none !important;
+/* --- RTL Support (Arabic) --- */
+html[dir="rtl"] {
+  direction: rtl;
 }
 
-body {
-  top: 0 !important;
+html[dir="rtl"] .nav-inner {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .kontakt-channels,
+html[dir="rtl"] .detail-card {
+  border-left: none;
+  border-right: 3px solid var(--accent);
+}
+
+html[dir="rtl"] .accordion-toggle {
+  text-align: right;
+}
+
+html[dir="rtl"] .lang-dropdown {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .footer-bottom {
+  text-align: center;
+}
+
+html[dir="rtl"] .form-checkbox {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .char-count {
+  text-align: left;
+}
+
+html[dir="rtl"] .exit-btn {
+  right: auto;
+  left: 2rem;
 }
 
 .projekt-figur-img {
@@ -854,6 +889,30 @@ body {
     padding: 0.8rem 0;
   }
 
+  /* Language switcher in mobile menu */
+  .nav-lang {
+    margin-top: 0.5rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--lavender-light);
+  }
+
+  .lang-dropdown {
+    position: static;
+    margin-top: 0.5rem;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    min-width: auto;
+  }
+
+  .lang-dropdown a {
+    padding: 0.6rem 1rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .nav-toggle {
     display: flex;
   }
@@ -868,6 +927,11 @@ body {
 
   .nav-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  /* RTL: keep column layout on mobile */
+  html[dir="rtl"] .nav-links {
+    flex-direction: column;
   }
 
   .hero-title {

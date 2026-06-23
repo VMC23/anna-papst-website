@@ -19,6 +19,65 @@ navLinks.querySelectorAll('a').forEach(link => {
 const langBtn = document.getElementById('langBtn');
 const langDropdown = document.getElementById('langDropdown');
 
+// Store original DE texts on first load
+const originalTexts = {};
+document.querySelectorAll('[data-i18n]').forEach(el => {
+  originalTexts[el.getAttribute('data-i18n')] = el.innerHTML;
+});
+
+function setLanguage(lang) {
+  const htmlEl = document.documentElement;
+
+  if (lang === 'de') {
+    // Restore original German texts
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (originalTexts[key]) {
+        el.innerHTML = originalTexts[key];
+      }
+    });
+    htmlEl.setAttribute('lang', 'de');
+    htmlEl.removeAttribute('dir');
+  } else if (translations[lang]) {
+    const t = translations[lang];
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (t[key]) {
+        el.innerHTML = t[key];
+      }
+    });
+    htmlEl.setAttribute('lang', lang);
+
+    // RTL for Arabic
+    if (lang === 'ar') {
+      htmlEl.setAttribute('dir', 'rtl');
+    } else {
+      htmlEl.removeAttribute('dir');
+    }
+  }
+
+  // Update aria-label for exit button
+  const exitBtn = document.getElementById('exitBtn');
+  if (exitBtn) {
+    const ariaKey = exitBtn.getAttribute('data-i18n-aria');
+    if (ariaKey && lang !== 'de' && translations[lang] && translations[lang][ariaKey]) {
+      exitBtn.setAttribute('aria-label', translations[lang][ariaKey]);
+    } else if (lang === 'de') {
+      exitBtn.setAttribute('aria-label', 'Seite verlassen');
+    }
+  }
+
+  // Update button label and active state
+  const langLabels = { de: 'DE', fr: 'FR', it: 'IT', en: 'EN', tr: 'TR', ar: 'AR' };
+  langBtn.innerHTML = langLabels[lang] + ' <span class="lang-arrow">&#9662;</span>';
+  langDropdown.querySelectorAll('a').forEach(a => a.classList.remove('lang-active'));
+  const activeLink = langDropdown.querySelector(`[data-lang="${lang}"]`);
+  if (activeLink) activeLink.classList.add('lang-active');
+
+  // Persist choice
+  localStorage.setItem('ichau-lang', lang);
+}
+
 if (langBtn && langDropdown) {
   langBtn.addEventListener('click', (e) => {
     e.stopPropagation();
@@ -30,41 +89,21 @@ if (langBtn && langDropdown) {
     langDropdown.classList.remove('open');
   });
 
-  // Language selection via Google Translate
+  // Language selection
   langDropdown.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
       const lang = link.dataset.lang;
-
-      // Update button text
-      const langLabels = { de: 'DE', fr: 'FR', it: 'IT', en: 'EN', tr: 'TR', ar: 'AR' };
-      langBtn.innerHTML = langLabels[lang] + ' <span class="lang-arrow">&#9662;</span>';
-
-      // Update active state
-      langDropdown.querySelectorAll('a').forEach(a => a.classList.remove('lang-active'));
-      link.classList.add('lang-active');
+      setLanguage(lang);
       langDropdown.classList.remove('open');
-
-      // Use Google Translate
-      if (lang === 'de') {
-        // Remove translation - restore original
-        const frame = document.querySelector('.goog-te-banner-frame');
-        if (frame) {
-          const innerDoc = frame.contentDocument || frame.contentWindow.document;
-          const restore = innerDoc.querySelector('.goog-te-button button');
-          if (restore) restore.click();
-        }
-        // Also try cookie approach
-        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-        document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + window.location.hostname;
-        location.reload();
-      } else {
-        document.cookie = 'googtrans=/de/' + lang + '; path=/;';
-        document.cookie = 'googtrans=/de/' + lang + '; path=/; domain=.' + window.location.hostname;
-        location.reload();
-      }
     });
   });
+
+  // Restore saved language on load
+  const savedLang = localStorage.getItem('ichau-lang');
+  if (savedLang && savedLang !== 'de') {
+    setLanguage(savedLang);
+  }
 }
 
 // --- Accordion Toggles ---
@@ -147,24 +186,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
-
-// --- Google Translate Widget (hidden, triggered by lang switcher) ---
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'de',
-    includedLanguages: 'de,fr,it,en,tr,ar',
-    autoDisplay: false
-  }, 'google_translate_element');
-}
-
-// Inject Google Translate script
-(function() {
-  const div = document.createElement('div');
-  div.id = 'google_translate_element';
-  div.style.display = 'none';
-  document.body.appendChild(div);
-
-  const script = document.createElement('script');
-  script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-  document.body.appendChild(script);
-})();
