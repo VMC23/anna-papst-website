@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Du hast überlebt. Du hast etwas zu erzählen.</title>
-  <meta name="description" content="Ein dokumentarisches Theaterprojekt von Anna Papst über häusliche Gewalt in der Schweiz. Teile deine Geschichte.">
+  <title>Ich au – Deine Geschichte ist es wert, gehört zu werden</title>
+  <meta name="description" content="Ich au – Ein dokumentarisches Theaterprojekt über Gewalt in der Partnerschaft. Deine Geschichte zählt.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#start" class="nav-logo">Anna Papst</a>
+      <a href="#start" class="nav-logo">Ich au</a>
       <button class="nav-toggle" aria-label="Menü öffnen" id="navToggle">
         <span></span>
         <span></span>
@@ -23,44 +23,90 @@
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#start">Start</a></li>
-        <li><a href="#projekt">Projekt</a></li>
-        <li><a href="#team">Team</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#projekt">Hintergrund</a></li>
+        <li><a href="#team">Team</a></li>
+        <li class="nav-lang">
+          <div class="lang-switcher" id="langSwitcher">
+            <button class="lang-btn" id="langBtn" aria-label="Sprache wählen">DE <span class="lang-arrow">&#9662;</span></button>
+            <ul class="lang-dropdown" id="langDropdown">
+              <li><a href="#" data-lang="de" class="lang-active">Deutsch</a></li>
+              <li><a href="#" data-lang="fr">Français</a></li>
+              <li><a href="#" data-lang="it">Italiano</a></li>
+              <li><a href="#" data-lang="en">English</a></li>
+              <li><a href="#" data-lang="tr">Türkçe</a></li>
+              <li><a href="#" data-lang="ar">العربية</a></li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero / Landing -->
+  <!-- Hero -->
   <section class="hero" id="start">
     <div class="hero-content">
-      <p class="hero-greeting">Hey, schön bist du da.</p>
-      <h1 class="hero-title">Du hast überlebt.<br>Du hast etwas zu erzählen.</h1>
-      <div class="hero-text">
-        <p>Du hast Gewalt in deiner Partnerschaft erlebt und Du bist immer noch da. Darüber sind wir sehr froh. Vielleicht bist Du inzwischen so weit, dass Du Deine Geschichte teilen kannst und willst. Wenn das so ist, melde Dich bei uns.</p>
+      <div class="hero-top">
+        <h1 class="hero-title">Deine Geschichte ist es wert,<br>gehört zu werden.</h1>
+        <p class="hero-intro">Wir bringen 2027 ein Theaterstück über Gewalt in der Partnerschaft auf die Bühne — und suchen Menschen, die bereit sind, ihre Geschichte zu teilen.</p>
+        <a href="#kontakt" class="btn">Melde dich bei uns</a>
+        <div class="hero-notice">
+          <p>Befindest du dich in einer akuten Gefahrensituation?<br>
+          <a href="https://telefon-gegen-gewalt.ch/" target="_blank" rel="noopener">Telefon gegen Gewalt &rarr;</a></p>
+        </div>
       </div>
-      <a href="#kontakt" class="btn">Melde dich bei uns</a>
-      <div class="hero-notice">
-        <p>Befindest du dich in einer akuten Gefahrensituation?<br>
-        <a href="https://telefon-gegen-gewalt.ch/" target="_blank" rel="noopener">Telefon gegen Gewalt &rarr;</a></p>
+      <div class="hero-below-text">
+        <p>Wir sind ein Team aus verschiedenen Künstler*innen. Wir führen Gespräche mit Betroffenen und Expert*innen und machen aus diesen Interviews ein Theaterstück. Wenn Du Gewalt in der Partnerschaft erlebt hast und bereit bist, darüber zu sprechen, wollen wir zuhören und weitertragen, was Du zu erzählen hast.</p>
+        <p>Wir glauben nämlich, dass das Schweigen und die Scham in der Schweiz die Bekämpfung dieser Gewalt erschweren. Deine Erzählung kann dazu beitragen, diese Stille zu durchbrechen und anderen helfen, die etwas Ähnliches erleben oder erlebt haben. Deine Geschichte kann uns als Gesellschaft daran erinnern, was hinter geschlossenen Türen passiert. Und deine Geschichte, zusammen mit den Geschichten anderer, zeigt auf, wie diese Gewalt uns alle betrifft.</p>
+        <p class="hero-dialect"><em>Es gaht eus alli öppis ah. Du bisch nöd allei mit dem.</em></p>
       </div>
+      <div class="hero-illustration">
+        <img src="img/AP_illustration_oh1.png" alt="Illustration: Diverse Gruppe von Menschen in einem Herz">
+      </div>
+      <p class="hero-anonym">Du bleibst als Person anonym und hast jederzeit die Möglichkeit, Deine Geschichte zurückzuziehen. Die Gespräche finden in einem von Dir gewählten Rahmen online oder vor Ort statt.</p>
     </div>
   </section>
 
-  <!-- Warum / Why -->
-  <section class="section section-why" id="warum">
+  <!-- Kontakt -->
+  <section class="section section-kontakt" id="kontakt">
     <div class="container">
-      <div class="two-col">
-        <div class="col-text">
-          <h2>Warum deine Geschichte zählt</h2>
-          <p>Bisher steht die gelebte Erfahrung von Betroffenen noch viel zu selten im Zentrum der öffentlichen Debatte. Aber genau diese Perspektive braucht es unbedingt, wenn wir als Gesellschaft in der Bekämpfung von häuslicher Gewalt einen Schritt weiter kommen wollen.</p>
-          <p>Zudem sind wir davon überzeugt, dass es auch anderen Betroffenen helfen kann, zu merken, dass sie nicht alleine sind und dass es Auswege gibt.</p>
+      <div class="kontakt-wrapper">
+        <div class="kontakt-intro">
+          <span class="section-label">Kontakt</span>
+          <h2 class="section-title">Melde dich bei uns</h2>
+          <p>Falls Du zu diesem Projekt beitragen möchtest oder erstmal einfach neugierig bist, erreichst Du uns auf folgenden Wegen:</p>
+          <div class="kontakt-channels">
+            <p><strong>Telefon:</strong> <a href="tel:+41797572284">079 757 22 84</a></p>
+            <p><strong>E-Mail:</strong> <a href="mailto:kontakt@ichau.net">kontakt@ichau.net</a></p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/ichau" target="_blank" rel="noopener">@ichau</a></p>
+          </div>
+          <p>Oder nutze das Kontaktformular. Wir freuen uns sehr, von Dir zu hören und danken Dir für Dein Vertrauen und Deine Zeit!</p>
+          <p class="signature"><em>Anna &amp; Natania</em></p>
         </div>
-        <div class="col-text">
-          <h2>Was passiert mit deiner Geschichte?</h2>
-          <p>Aus den biographischen Geschichten, die uns erzählt werden, entsteht ein Theaterstück, das im Mai 2027 zur Première kommt.</p>
-          <p>Du bleibst dabei <strong>anonym</strong> und hast jederzeit die Möglichkeit, Deine Geschichte zurückzuziehen. Die Gespräche finden in einem von Dir gewählten Rahmen online oder vor Ort statt.</p>
-          <p class="signature">Wir freuen uns sehr, von Dir zu hören.<br><em>Anna &amp; Natania</em></p>
-        </div>
+        <!-- TODO: Formspree-Endpoint eintragen nach Account-Erstellung auf formspree.io (leitet an kontakt@ichau.net weiter) -->
+        <form class="kontakt-form" id="kontaktForm" action="https://formspree.io/f/DEIN_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="nachricht">Nachricht <span class="label-hint">(optional, max. 750 Zeichen)</span></label>
+            <textarea id="nachricht" name="nachricht" maxlength="750" rows="6"></textarea>
+            <div class="char-count"><span id="charCount">0</span> / 750</div>
+          </div>
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="datenschutz" name="datenschutz" required>
+            <label for="datenschutz">Ich habe die <a href="#datenschutz-page">Datenschutzerklärung</a> gelesen und stimme der vertraulichen Verarbeitung meiner Daten zu. Alle Angaben werden streng vertraulich behandelt.</label>
+          </div>
+          <button type="submit" class="btn btn-submit">Absenden</button>
+          <div class="form-success" id="formSuccess">
+            <p>Danke für dein Schreiben. Wir melden uns bei dir.</p>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -68,34 +114,40 @@
   <!-- Projekt -->
   <section class="section section-projekt" id="projekt">
     <div class="container">
-      <span class="section-label">Das Projekt</span>
-      <h2 class="section-title">Sie trägt heute eine Schweizer Tracht Prügel</h2>
-      <div class="projekt-content">
+      <button class="accordion-toggle" id="projektToggle">
+        <span class="section-label">Das Projekt</span>
+        <span class="accordion-title">Hintergrund <span class="accordion-icon">+</span></span>
+      </button>
+      <div class="accordion-content" id="projektContent">
+        <div class="projekt-content">
         <div class="projekt-text">
-          <p>Ein dokumentarisches Theaterprojekt im Rahmen des Formats <em>Reportage fürs Theater</em>, entwickelt von Anna Papst am sogar Theater Zürich.</p>
-          <p>Frauen werden von ihren Partnern beschimpft und bedroht. Frauen werden von ihren Partnern geschlagen. Frauen werden von ihren Partnern bedrängt und vergewaltigt. Frauen werden ermordet, wenn sie sich von ihren Partnern trennen.</p>
-          <p>Das alles passiert hier, bei uns, in der Schweiz, jeden Tag. Jede zehnte Frau in der Schweiz ist von psychischer, körperlicher oder sexualisierter Gewalt ihres Ehemannes oder Partners betroffen. Diese Zahlen bilden jedoch nur die gemeldeten Fälle ab.</p>
-          <p>Ziel der Aufführungen ist es, Frauen, die Opfer von häuslicher Gewalt geworden sind, eine Stimme zu geben und aufzuzeigen, warum es so schrecklich normal ist, dass das passiert.</p>
+          <p>In ihrem kommenden Theaterprojekt lässt die Autorin und Regisseurin Anna Papst Betroffene von häuslicher Gewalt zu Wort kommen. Ihr Ziel dabei ist es, den Menschen eine Stimme und dem Thema eine Plattform zu geben. Hierfür führt sie intensiv Gespräche mit Expert*innen aus Praxis und Recherche zum Thema und lanciert einen Aufruf für Betroffene, die ihre Geschichte erzählen möchten.</p>
+          <p>Dabei steht der Schutz der Gesprächspartner*innen an oberster Stelle. Die Phase der Gesprächsführung erstreckt sich über einen Zeitraum von 6 Monaten, in denen behutsam der Prozess vom ersten Gespräch bis zum fertigen Theatertext abgewickelt wird. Keine der Gesprächspartnerinnen steht selbst auf der Bühne, sämtliche Rollen werden von Profis übernommen.</p>
+          <p>Anna Papst blickt bereits auf eine langjährige Erfahrung von dokumentarischen Theaterprojekten mit vulnerablen Gruppen zurück. Zusätzlich lässt sie sich für das kommende Projekt durch den Stress- und traumasensiblen Ansatz (STA®) von medico mondiale schulen. Während dem gesamten Projekt wird Anna Papst von den Fachpersonen Anja Derungs (Stiftung Frauenhaus Zürich) und Lucia Tozzi (medico mondiale) begleitet und regelmässig gecoacht.</p>
+          <img class="projekt-figur-img" src="img/AP_figur5.png" alt="">
         </div>
         <div class="projekt-details">
           <div class="detail-card">
-            <h3>Format</h3>
-            <p>Reportage fürs Theater &mdash; enacted oral history. Ein diverses Frauenensemble berichtet vielstimmig aus den Perspektiven von Betroffenen, Fachpersonen und Politiker:innen.</p>
+            <h3>Gespräche</h3>
+            <p>Die Gesprächspartner*innen dürfen frei wählen, wo sie am liebsten aus ihrem Leben erzählen möchten: Bei sich zuhause, in einem neutralen Raum oder online. Wenn sie es wünschen, kann bei diesem Gespräch auch eine Begleitperson dabei sein.</p>
+            <p>Der Aufruf wird auf deutsch, englisch, französisch, italienisch, türkisch und arabisch gestreut. Bei den Gesprächen auf italienisch, türkisch und arabisch wird eine Übersetzerin anwesend sein.</p>
           </div>
           <div class="detail-card">
-            <h3>Veranstaltungen</h3>
-            <ul>
-              <li>Kaltlesung &mdash; sogar Theater, Mai/Juni 2026</li>
-              <li>Debatte &mdash; Karl der Grosse, November 2026</li>
-              <li>Première &amp; 7 Vorstellungen &mdash; sogar Theater, Mai 2027</li>
-              <li>Workshop &laquo;Allyship domestic violence&raquo;</li>
-              <li>Collective listening party &mdash; Helsinkiklub, Oktober 2027</li>
-            </ul>
+            <h3>Vom Gespräch zum Text</h3>
+            <p>Aus dem aufgezeichneten Gespräch wird ein wortgenaues Transkript erstellt. Aus diesem Transkript wird eine erste Textfassung geschöpft. Diese geht zurück an die Gesprächspartnerin, mit der Frage, ob sie an dem Text etwas beifügen, anmerken oder ändern möchte. Der Text wandert solange zwischen Autorin und Gesprächspartnerin hin- und her, bis die Gesprächspartnerin damit einverstanden ist.</p>
+            <p>Erst dann wird der Text Teil des gesamten Theaterstücks. Die Gesprächspartnerin hat während diesem Prozess auch jederzeit die Möglichkeit, ihre Teilnahme komplett zurückzuziehen. Alle Gesprächspartner*innen bleiben anonym, auch Wohnorte und andere Angaben, die auf sie rückschliessen lassen, werden geändert.</p>
           </div>
           <div class="detail-card">
-            <h3>Partner</h3>
-            <p>sogar Theater Zürich</p>
+            <h3>Auf der Bühne</h3>
+            <p>Der fertige Theatertext wird von einem diversen Künstlerinnenkollektiv auf die Bühne gebracht. Jede Gesprächspartnerin wird während dem Probenprozess eingeladen, sich die Inszenierung ihres Textes anzuschauen. Danach ist ein Feedbackgespräch angesetzt, bei dem auch eine Traumatherapeutin anwesend sein wird.</p>
+            <p>Selbstverständlich werden die Gesprächspartner*innen auch zu den öffentlichen Aufführungen eingeladen und erhalten Freikarten.</p>
           </div>
+          <div class="detail-card">
+            <h3>Trägerschaft</h3>
+            <p>Für zeitgeschehen e.v.</p>
+            <p>Anna Papst, Regisseurin<br>Natania Prezant, Dramaturgin<br>Ursina Greuel, Leiterin sogar Theater</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -104,15 +156,21 @@
   <!-- Team -->
   <section class="section section-team" id="team">
     <div class="container">
-      <span class="section-label">Über uns</span>
-      <h2 class="section-title">Das Team</h2>
-      <div class="team-grid">
+      <button class="accordion-toggle" id="teamToggle">
+        <span class="section-label">Über uns</span>
+        <span class="accordion-title">Das Team <span class="accordion-icon">+</span></span>
+      </button>
+      <div class="accordion-content" id="teamContent">
+        <div class="team-grid">
         <div class="team-group">
           <h3>Künstlerische Leitung</h3>
           <div class="team-member">
             <p class="member-name">Anna Papst</p>
             <p class="member-role">Regie, Text &amp; Konzept</p>
           </div>
+        </div>
+        <div class="team-group team-figur">
+          <img src="img/AP_figur3.png" alt="">
         </div>
         <div class="team-group">
           <h3>Dramaturgie &amp; Text</h3>
@@ -124,6 +182,9 @@
             <p class="member-name">Fadrina Arpagaus</p>
             <p class="member-role">Textentwicklung</p>
           </div>
+        </div>
+        <div class="team-group team-figur">
+          <img src="img/AP_figur4.png" alt="">
         </div>
         <div class="team-group">
           <h3>Bühne, Kostüm &amp; Musik</h3>
@@ -175,44 +236,19 @@
             <p class="member-name">Anja Derungs</p>
           </div>
         </div>
+        <div class="team-group team-figur">
+          <img src="img/AP_figur5.png" alt="">
+        </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Kontakt / Formular -->
-  <section class="section section-kontakt" id="kontakt">
+  <!-- CTA -->
+  <section class="section section-cta">
     <div class="container">
-      <div class="kontakt-wrapper">
-        <div class="kontakt-intro">
-          <span class="section-label">Kontakt</span>
-          <h2 class="section-title">Melde dich bei uns</h2>
-          <p>Willst du uns deine Geschichte erzählen? Dann melde dich bei uns und wir nehmen Kontakt mit dir auf.</p>
-          <p>Wenn du uns etwas Spezielles zur Kontaktaufnahme oder deiner Geschichte mitteilen willst, schreibe es in das Nachrichtenfeld.</p>
-        </div>
-        <form class="kontakt-form" id="kontaktForm" action="#" method="POST">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">E-Mail</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="nachricht">Nachricht <span class="label-hint">(optional, max. 750 Zeichen)</span></label>
-            <textarea id="nachricht" name="nachricht" maxlength="750" rows="6"></textarea>
-            <div class="char-count"><span id="charCount">0</span> / 750</div>
-          </div>
-          <div class="form-group form-checkbox">
-            <input type="checkbox" id="datenschutz" name="datenschutz" required>
-            <label for="datenschutz">Ich habe die <a href="#datenschutz-page">Datenschutzerklärung</a> gelesen und stimme der vertraulichen Verarbeitung meiner Daten zu. Alle Angaben werden streng vertraulich behandelt.</label>
-          </div>
-          <button type="submit" class="btn btn-submit">Absenden</button>
-          <div class="form-success" id="formSuccess">
-            <p>Danke für dein Schreiben. Wir melden uns bei dir.</p>
-          </div>
-        </form>
-      </div>
+      <a href="#kontakt" class="btn">Melde dich bei uns</a>
+      <p class="back-to-top"><a href="#start">&uarr; Zurück zum Anfang</a></p>
     </div>
   </section>
 
@@ -222,8 +258,10 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>Impressum</h4>
-          <p>Anna Papst<br>
+          <p>Ich au<br>
+          c/o zeitgeschehen e.v.<br>
           Zürich, Schweiz</p>
+          <p><a href="mailto:kontakt@ichau.net">kontakt@ichau.net</a></p>
         </div>
         <div class="footer-col">
           <h4>Datenschutz</h4>
@@ -238,10 +276,13 @@
       </div>
       <div class="footer-bottom">
         <p>Website: <a href="https://valentime.space" target="_blank" rel="noopener">Valentin:e Brasser</a></p>
-        <p>&copy; 2026 Anna Papst. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2026 Ich au. Alle Rechte vorbehalten.</p>
       </div>
     </div>
   </footer>
+
+  <!-- Exit Button -->
+  <a href="https://www.google.ch" class="exit-btn" id="exitBtn" aria-label="Seite verlassen">&#10005;</a>
 
   <script src="js/main.js"></script>
 </body>
