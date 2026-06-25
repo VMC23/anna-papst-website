@@ -140,17 +140,28 @@ const formSuccess = document.getElementById('formSuccess');
 if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
+    const submitBtn = form.querySelector('.btn-submit');
+    submitBtn.disabled = true;
+    submitBtn.textContent = '...';
 
-    // In production, this would send data to a server/email service.
-    // For now, show confirmation message.
-    formSuccess.classList.add('visible');
-    form.querySelector('.btn-submit').style.display = 'none';
-
-    // Reset form after short delay
-    setTimeout(() => {
-      form.reset();
-      charCount.textContent = '0';
-    }, 300);
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(res => {
+      if (res.ok) {
+        formSuccess.classList.add('visible');
+        submitBtn.style.display = 'none';
+        form.reset();
+        charCount.textContent = '0';
+      } else {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Absenden';
+      }
+    }).catch(() => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Absenden';
+    });
   });
 }
 
