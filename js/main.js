@@ -116,23 +116,10 @@ accordions.forEach(({ btn, content }) => {
   const toggle = document.getElementById(btn);
   const panel = document.getElementById(content);
   if (toggle && panel) {
-    // Click to toggle
     toggle.addEventListener('click', () => {
       toggle.classList.toggle('active');
       panel.classList.toggle('open');
     });
-
-    // Auto-open when scrolled into view
-    const autoOpenObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && !panel.classList.contains('open')) {
-          toggle.classList.add('active');
-          panel.classList.add('open');
-          autoOpenObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.3 });
-    autoOpenObserver.observe(toggle);
   }
 });
 
