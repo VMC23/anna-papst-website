@@ -814,6 +814,38 @@ html[dir="rtl"] .exit-btn {
   object-fit: contain;
 }
 
+/* Illustration credits – overlap image whitespace */
+.illu-credit {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 300;
+  color: var(--warm-gray);
+  letter-spacing: 0.03em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -3.5rem;
+}
+
+.hero-illustration .illu-credit {
+  margin-top: -4rem;
+}
+
+.team-figur .illu-credit {
+  margin-top: -3rem;
+}
+
+.projekt-figur-credit {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 300;
+  color: var(--warm-gray);
+  letter-spacing: 0.03em;
+  position: relative;
+  z-index: 1;
+  margin-top: -3.5rem;
+}
+
 /* --- Exit Button --- */
 .exit-btn {
   position: fixed;
