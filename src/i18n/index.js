@@ -93,6 +93,7 @@ const messages = {
       datenschutz: 'Datenschutz',
       datenschutzText1: 'Diese Website erhebt personenbezogene Daten ausschliesslich über das Kontaktformular. Die übermittelten Daten (Name, E-Mail, Nachricht) werden vertraulich behandelt, nicht an Dritte weitergegeben und ausschliesslich zur Kontaktaufnahme im Rahmen des Projekts verwendet.',
       datenschutzText2: 'Mit dem Absenden des Formulars stimmen Sie der Verarbeitung Ihrer Daten zu diesem Zweck zu. Sie können Ihre Einwilligung jederzeit widerrufen.',
+      datenschutzText3: 'Diese Website verwendet Cloudflare Turnstile zum Schutz des Kontaktformulars vor Missbrauch. Dabei werden technisch notwendige Cookies gesetzt. Es erfolgt kein Tracking.',
       hilfe: 'Hilfe in Notsituationen',
       copyright: '© 2026 Ich au. Alle Rechte vorbehalten.'
     },
@@ -191,6 +192,7 @@ const messages = {
       datenschutz: 'Protection des données',
       datenschutzText1: 'Ce site web ne collecte des données personnelles que via le formulaire de contact. Les données transmises (nom, e-mail, message) sont traitées de manière confidentielle, ne sont pas transmises à des tiers et sont utilisées exclusivement pour la prise de contact dans le cadre du projet.',
       datenschutzText2: 'En envoyant le formulaire, vous consentez au traitement de vos données à cette fin. Vous pouvez révoquer votre consentement à tout moment.',
+      datenschutzText3: 'Ce site utilise Cloudflare Turnstile pour protéger le formulaire de contact contre les abus. Des cookies techniquement nécessaires sont utilisés. Aucun suivi n\'est effectué.',
       hilfe: 'Aide en situation d\'urgence',
       copyright: '© 2026 Ich au. Tous droits réservés.'
     },
@@ -289,6 +291,7 @@ const messages = {
       datenschutz: 'Privacy policy',
       datenschutzText1: 'This website collects personal data exclusively through the contact form. The transmitted data (name, email, message) are treated confidentially, are not shared with third parties, and are used solely for communication within the scope of the project.',
       datenschutzText2: 'By submitting the form, you consent to the processing of your data for this purpose. You may revoke your consent at any time.',
+      datenschutzText3: 'This website uses Cloudflare Turnstile to protect the contact form from abuse. Strictly necessary cookies are set for this purpose. No tracking takes place.',
       hilfe: 'Help in emergencies',
       copyright: '© 2026 Ich au. All rights reserved.'
     },
@@ -387,6 +390,7 @@ const messages = {
       datenschutz: 'Protezione dei dati',
       datenschutzText1: 'Questo sito web raccoglie dati personali esclusivamente tramite il modulo di contatto. I dati trasmessi (nome, e-mail, messaggio) vengono trattati in modo confidenziale, non vengono trasmessi a terzi e vengono utilizzati esclusivamente per la presa di contatto nell\'ambito del progetto.',
       datenschutzText2: 'Con l\'invio del modulo, acconsentite al trattamento dei vostri dati a questo scopo. Potete revocare il vostro consenso in qualsiasi momento.',
+      datenschutzText3: 'Questo sito utilizza Cloudflare Turnstile per proteggere il modulo di contatto da abusi. Vengono impostati cookie tecnicamente necessari. Non viene effettuato alcun tracciamento.',
       hilfe: 'Aiuto in situazioni di emergenza',
       copyright: '© 2026 Ich au. Tutti i diritti riservati.'
     },
@@ -485,6 +489,7 @@ const messages = {
       datenschutz: 'Gizlilik politikası',
       datenschutzText1: 'Bu web sitesi yalnızca iletişim formu aracılığıyla kişisel veri toplar. İletilen veriler (isim, e-posta, mesaj) gizli tutulur, üçüncü şahıslarla paylaşılmaz ve yalnızca proje kapsamında iletişim amacıyla kullanılır.',
       datenschutzText2: 'Formu göndererek verilerinizin bu amaçla işlenmesine onay vermiş olursunuz. Onayınızı istediğiniz zaman geri çekebilirsiniz.',
+      datenschutzText3: 'Bu web sitesi, iletişim formunu kötüye kullanıma karşı korumak için Cloudflare Turnstile kullanmaktadır. Bu amaçla teknik olarak gerekli çerezler kullanılır. Herhangi bir izleme yapılmaz.',
       hilfe: 'Acil durumlarda yardım',
       copyright: '© 2026 Ich au. Tüm hakları saklıdır.'
     },
@@ -583,6 +588,7 @@ const messages = {
       datenschutz: 'حماية البيانات',
       datenschutzText1: 'يجمع هذا الموقع البيانات الشخصية حصريًا عبر نموذج الاتصال. يتم التعامل مع البيانات المرسلة (الاسم، البريد الإلكتروني، الرسالة) بسرية، ولا يتم تمريرها إلى أطراف ثالثة، وتُستخدم حصريًا للتواصل في إطار المشروع.',
       datenschutzText2: 'بإرسال النموذج، توافق/ين على معالجة بياناتك لهذا الغرض. يمكنك سحب موافقتك في أي وقت.',
+      datenschutzText3: 'يستخدم هذا الموقع Cloudflare Turnstile لحماية نموذج الاتصال من سوء الاستخدام. يتم استخدام ملفات تعريف ارتباط ضرورية تقنيًا لهذا الغرض. لا يتم إجراء أي تتبع.',
       hilfe: 'المساعدة في حالات الطوارئ',
       copyright: '© 2026 Ich au. جميع الحقوق محفوظة.'
     },

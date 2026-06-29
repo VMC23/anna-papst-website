@@ -11,6 +11,7 @@
           <h4>{{ $t('footer.datenschutz') }}</h4>
           <p>{{ $t('footer.datenschutzText1') }}</p>
           <p>{{ $t('footer.datenschutzText2') }}</p>
+          <p>{{ $t('footer.datenschutzText3') }}</p>
         </div>
         <div class="footer-col">
           <h4>{{ $t('footer.hilfe') }}</h4>
