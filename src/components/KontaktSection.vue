@@ -38,7 +38,8 @@
               {{ datenschutzBefore }}<a href="#datenschutz-page" @click.prevent="scrollTo('datenschutz-page')">{{ $t('kontakt.form.datenschutzLink') }}</a>{{ datenschutzAfter }}
             </label>
           </div>
-          <button type="submit" class="btn btn-submit" :disabled="submitting">{{ submitting ? '...' : $t('kontakt.form.submit') }}</button>
+          <div ref="turnstileEl" class="turnstile-wrapper"></div>
+          <button type="submit" class="btn btn-submit" :disabled="!turnstileToken || submitting">{{ submitting ? '...' : $t('kontakt.form.submit') }}</button>
           <div class="form-success" :class="{ visible: submitted }">
             <p>{{ $t('kontakt.form.success') }}</p>
           </div>
@@ -52,14 +53,50 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useI18n } from 'vue-i18n'
+
+const TURNSTILE_SITE_KEY = '0x4AAAAAADs6c9d8xzaceqD-'
 
 const { t } = useI18n()
 const nachricht = ref('')
 const submitting = ref(false)
 const submitted = ref(false)
 const errorMsg = ref('')
+const turnstileToken = ref('')
+const turnstileEl = ref(null)
+let turnstileWidgetId = null
+
+onMounted(() => {
+  function renderWidget() {
+    if (window.turnstile && turnstileEl.value) {
+      turnstileWidgetId = window.turnstile.render(turnstileEl.value, {
+        sitekey: TURNSTILE_SITE_KEY,
+        callback: (token) => { turnstileToken.value = token },
+        'expired-callback': () => { turnstileToken.value = '' },
+        'error-callback': () => { turnstileToken.value = '' }
+      })
+    }
+  }
+
+  if (window.turnstile) {
+    renderWidget()
+  } else {
+    const interval = setInterval(() => {
+      if (window.turnstile) {
+        clearInterval(interval)
+        renderWidget()
+      }
+    }, 200)
+    setTimeout(() => clearInterval(interval), 10000)
+  }
+})
+
+onBeforeUnmount(() => {
+  if (turnstileWidgetId != null && window.turnstile) {
+    window.turnstile.remove(turnstileWidgetId)
+  }
+})
 
 const datenschutzBefore = computed(() => {
   const full = t('kontakt.form.datenschutz')
@@ -95,6 +132,10 @@ async function submitForm(e) {
       submitted.value = true
       form.reset()
       nachricht.value = ''
+      turnstileToken.value = ''
+      if (turnstileWidgetId != null && window.turnstile) {
+        window.turnstile.reset(turnstileWidgetId)
+      }
     } else {
       errorMsg.value = `Fehler beim Senden (${res.status}). Bitte versuche es später erneut.`
     }
