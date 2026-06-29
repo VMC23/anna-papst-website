@@ -11,7 +11,6 @@
 }
 
 :root {
-  /* Palette – sanftes Gelb & Lavendel, gedämpft */
   --cream:       #FDFBF2;
   --lavender:    #EEEAF4;
   --lavender-light: #F4F1F8;
@@ -23,11 +22,9 @@
   --text-light:  #6B6473;
   --white:       #FFFFFF;
 
-  /* Typography */
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'Cormorant Garamond', Georgia, serif;
 
-  /* Spacing */
   --section-pad: clamp(4rem, 8vw, 8rem);
   --container:   min(90%, 1100px);
 }
@@ -183,7 +180,7 @@ h1, h2, h3, h4 {
   padding: 6rem 1.5rem 4rem;
   background:
     linear-gradient(180deg, rgba(253, 251, 242, 0.55) 0%, rgba(253, 251, 242, 0.45) 100%),
-    url('../img/AP_hintergrund_g.webp') center / cover no-repeat;
+    url('/img/AP_hintergrund_g.webp') center / cover no-repeat;
 }
 
 .hero-content {
@@ -392,7 +389,7 @@ h1, h2, h3, h4 {
 .section-projekt {
   background:
     linear-gradient(180deg, rgba(244, 241, 248, 0.5) 0%, rgba(244, 241, 248, 0.4) 100%),
-    url('../img/AP_hintergrund_l.webp') center / cover no-repeat;
+    url('/img/AP_hintergrund_l.webp') center / cover no-repeat;
 }
 
 .projekt-content {
@@ -455,7 +452,7 @@ h1, h2, h3, h4 {
 .section-team {
   background:
     linear-gradient(180deg, rgba(253, 251, 242, 0.55) 0%, rgba(253, 251, 242, 0.45) 100%),
-    url('../img/AP_hintergrund_g.webp') center / cover no-repeat;
+    url('/img/AP_hintergrund_g.webp') center / cover no-repeat;
 }
 
 /* --- Accordion --- */
@@ -669,7 +666,7 @@ h1, h2, h3, h4 {
   padding: clamp(3rem, 6vw, 5rem) 0;
   background:
     linear-gradient(180deg, rgba(253, 251, 242, 0.55) 0%, rgba(253, 251, 242, 0.45) 100%),
-    url('../img/AP_hintergrund_g.webp') center / cover no-repeat;
+    url('/img/AP_hintergrund_g.webp') center / cover no-repeat;
 }
 
 .back-to-top {
@@ -814,7 +811,6 @@ html[dir="rtl"] .exit-btn {
   object-fit: contain;
 }
 
-/* Illustration credits – overlap image whitespace */
 .illu-credit {
   display: block;
   font-size: 0.65rem;
@@ -921,7 +917,6 @@ html[dir="rtl"] .exit-btn {
     padding: 0.8rem 0;
   }
 
-  /* Language switcher in mobile menu */
   .nav-lang {
     margin-top: 0.5rem;
     padding-top: 0.8rem;
@@ -961,7 +956,6 @@ html[dir="rtl"] .exit-btn {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  /* RTL: keep column layout on mobile */
   html[dir="rtl"] .nav-links {
     flex-direction: column;
   }
