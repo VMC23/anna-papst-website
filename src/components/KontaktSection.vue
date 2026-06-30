@@ -9,7 +9,7 @@
           <div class="kontakt-channels">
             <p><strong>{{ $t('kontakt.telefon') }}</strong> <a href="tel:+41797572284">079 757 22 84</a></p>
             <p><strong>{{ $t('kontakt.email') }}</strong> <a href="mailto:kontakt@ichau.net">kontakt@ichau.net</a></p>
-            <p><strong>{{ $t('kontakt.instagram') }}</strong> <a href="https://instagram.com/ichau" target="_blank" rel="noopener">@ichau</a></p>
+            <p><strong>{{ $t('kontakt.instagram') }}</strong> <a href="https://instagram.com/ichau.ichau" target="_blank" rel="noopener">@ichau.ichau</a></p>
           </div>
           <p>{{ $t('kontakt.form.intro') }}</p>
           <p class="signature"><em>Anna &amp; Natania</em></p>
