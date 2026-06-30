@@ -103,25 +103,25 @@ const messages = {
   fr: {
     nav: { start: 'Accueil', kontakt: 'Contact', hintergrund: 'Contexte', team: 'Équipe' },
     hero: {
-      title: 'Ton histoire mérite{br}d\'être entendue.',
-      intro: 'En 2027, nous portons sur scène une pièce de théâtre sur la violence conjugale et dans le mariage — et nous cherchons des personnes prêtes à partager leur histoire.',
+      title: 'Ton histoire vaut{br}d\'être entendue.',
+      intro: 'En 2027, nous monterons une pièce de théâtre sur la violence au sein du couple et du mariage — et nous recherchons des personnes prêtes à partager leur histoire.',
       btn: 'Contacte-nous',
       notice: 'Te trouves-tu dans une situation de danger aigu ?',
       noticeLink: 'Téléphone contre la violence',
-      text1: 'Nous sommes une équipe composée de divers artistes. Nous menons des entretiens avec des personnes concernées et des expert·e·s, et nous transformons ces interviews en pièce de théâtre. Si tu as vécu de la violence dans le cadre domestique et que tu es prêt·e à en parler, nous voulons t\'écouter et transmettre ce que tu as à raconter.',
-      text2: 'Nous croyons en effet que le silence et la honte en Suisse entravent la lutte contre cette violence. Ton récit peut contribuer à briser ce silence et aider d\'autres personnes qui vivent ou ont vécu quelque chose de semblable. Ton histoire peut rappeler à notre société ce qui se passe derrière des portes closes. Et ton histoire, avec celles d\'autres personnes, montre comment cette violence nous concerne toutes et tous.',
-      dialect: 'Ça nous concerne toutes et tous. Tu n\'es pas seul·e.',
-      anonym: 'Tu restes anonyme en tant que personne et tu as à tout moment la possibilité de retirer ton histoire. Les entretiens ont lieu dans un cadre choisi par toi, en ligne ou sur place.'
+      text1: 'Nous sommes une équipe composée d\'artistes femmes et non-binaires qui créons une pièce de théâtre sur la violence domestique. Pour cela, nous menons des entretiens avec des personnes concernées et des expert·e·s, et nous transformons ces entretiens en pièce de théâtre. Si tu as été victime de violence domestique et que tu es prêt·e à en parler, nous voulons t\'écouter et relayer ce que tu as à raconter.',
+      text2: 'Nous pensons en effet que le silence et la honte en Suisse entravent la lutte contre cette violence. Ton témoignage peut contribuer à briser ce silence et aider d\'autres personnes qui vivent ou ont vécu une situation similaire. Ton histoire peut nous rappeler, en tant que société, ce qui se passe derrière des portes fermées. Et ton histoire, accompagnée par d\'autres, montre à quel point cette violence concerne tout le monde.',
+      dialect: 'Ça nous regarde tou·te·s. Tu n\'es pas seul·e.',
+      anonym: 'Tu resteras anonyme et tu auras à tout moment la possibilité de retirer ton témoignage. Les entretiens auront lieu dans un cadre de ton choix, en ligne ou en présentiel.'
     },
     kontakt: {
       label: 'Contact',
       title: 'Contacte-nous',
-      intro: 'Si tu souhaites contribuer à ce projet ou si tu es simplement curieux·se, tu peux nous joindre par les moyens suivants :',
+      intro: 'Si tu souhaites contribuer à ce projet ou si tu es simplement curieux·se, n\'hésite pas à nous contacter :',
       telefon: 'Téléphone :',
       email: 'E-mail :',
       instagram: 'Instagram :',
       form: {
-        intro: 'Ou utilise le formulaire de contact. Nous nous réjouissons de tes nouvelles et te remercions pour ta confiance et ton temps !',
+        intro: 'Ou utilise le formulaire de contact. Nous avons hâte d\'entendre de ta part et te remercions pour ta confiance et ton temps !',
         name: 'Nom',
         email: 'E-mail',
         nachricht: 'Message',
@@ -203,14 +203,14 @@ const messages = {
     nav: { start: 'Home', kontakt: 'Contact', hintergrund: 'Background', team: 'Team' },
     hero: {
       title: 'Your story deserves{br}to be heard.',
-      intro: 'In 2027, we are bringing a theatre production about domestic violence and violence in marriage to the stage — and we are looking for people willing to share their story.',
+      intro: 'We are creating a play in 2027 about domestic and intimate partner violence and are looking for survivors who are willing to share their story.',
       btn: 'Get in touch',
-      notice: 'Are you in an acute situation of danger?',
-      noticeLink: 'Helpline against violence',
-      text1: 'We are a team of diverse artists. We conduct conversations with affected individuals and experts and turn these interviews into a theatre production. If you have experienced violence in the domestic sphere and are willing to talk about it, we want to listen and pass on what you have to tell.',
-      text2: 'We believe that the silence and shame in Switzerland hinder the fight against this violence. Your account can help break this silence and help others who are experiencing or have experienced something similar. Your story can remind our society of what happens behind closed doors. And your story, together with the stories of others, shows how this violence affects us all.',
-      dialect: 'It concerns all of us. You are not alone.',
-      anonym: 'You remain anonymous as a person and can withdraw your story at any time. The conversations take place in a setting of your choice, online or in person.'
+      notice: 'Are you in danger or in need of immediate support?',
+      noticeLink: 'Hotline Against Violence',
+      text1: 'Hello. We are a diverse team of non-binary and female artists writing and staging a play together. The script is based on interviews we are conducting with experts and people who have survived domestic abuse. If you have experienced violence perpetrated by a partner in a romantic or dating relationship and are willing to talk about it, we want to listen and share your story.',
+      text2: 'We believe that silence and shame are two of the main challenges Swiss society faces in its fight to end domestic abuse. Your account can help break this silence and support others who are or have gone through something similar. Your story can remind us as a society of what happens behind closed doors. And your story, along with the stories of others, shows us how this violence affects everyone.',
+      dialect: 'We\'re all in this together. You are not alone.',
+      anonym: 'You may remain anonymous during the entire process and will always have the possibility to withdraw your story. The conversations will take place in a setting of your choice\u2014either online or in person.'
     },
     kontakt: {
       label: 'Contact',
@@ -220,7 +220,7 @@ const messages = {
       email: 'Email:',
       instagram: 'Instagram:',
       form: {
-        intro: 'Or use the contact form. We look forward to hearing from you and thank you for your trust and your time!',
+        intro: 'Or use the contact form. We\'d love to hear from you and thank you for your trust and your time!',
         name: 'Name',
         email: 'Email',
         nachricht: 'Message',
@@ -499,25 +499,25 @@ const messages = {
   ar: {
     nav: { start: 'البداية', kontakt: 'اتصل بنا', hintergrund: 'الخلفية', team: 'الفريق' },
     hero: {
-      title: 'قصتك تستحق{br}أن تُسمع.',
-      intro: 'في عام 2027، سنقدم عرضًا مسرحيًا عن العنف الأسري والعنف الزوجي على خشبة المسرح — ونبحث عن أشخاص مستعدين لمشاركة قصصهم.',
+      title: 'قصتكِ تستحق{br}أن تُسمع!',
+      intro: 'نحن فريق فنيّ يضم فنانات وفنانين من خلفيّات مختلفة، وسنقدّم في عام 2027 عملاً مسرحياً عن العنف في العلاقات العاطفية والزوجية.',
       btn: 'تواصل/ي معنا',
       notice: 'هل تواجه/ين حالة خطر حادة؟',
       noticeLink: 'خط المساعدة ضد العنف',
-      text1: 'نحن فريق مكوّن من فنانين وفنانات متنوعين. نُجري محادثات مع أشخاص متأثرين وخبراء، ونحوّل هذه المقابلات إلى عرض مسرحي. إذا تعرضت للعنف في المحيط الأسري وأنت مستعد/ة للحديث عنه، فنحن نريد الاستماع إليك ونقل ما لديك لترويه.',
-      text2: 'نعتقد أن الصمت والعار في سويسرا يعيقان مكافحة هذا العنف. يمكن لروايتك أن تساهم في كسر هذا الصمت ومساعدة الآخرين الذين يعيشون أو عاشوا شيئًا مشابهًا. يمكن لقصتك أن تذكّر مجتمعنا بما يحدث خلف الأبواب المغلقة. وقصتك، مع قصص الآخرين، تُظهر كيف يؤثر هذا العنف علينا جميعًا.',
-      dialect: 'هذا يخصنا جميعًا. لست وحدك/ي في هذا.',
-      anonym: 'تبقى/ين مجهول/ة الهوية ولديك في أي وقت إمكانية سحب قصتك. تتم المحادثات في إطار تختاره/ينه بنفسك، عبر الإنترنت أو شخصيًا.'
+      text1: 'نُجري حوارات مع نساء متضرّرات وخبيرات وخبراء، ثم نحوّل هذه المقابلات إلى عمل مسرحي. إذا كنتِ قد تعرّضتِ للعنف المنزلي، وكنتِ مستعدّةً للتحدث عن تجربتكِ، فنحن مستعدون للاستماع إليكِ ونقل ما تودّين قوله.',
+      text2: 'نحن نؤمن بأن الصمت والشعور بالخجل في سويسرا يعرقلان مواجهة هذا النوع من العنف. ويمكن لقصتكِ أن تساهم في كسر هذا الصمت، وأن تساعد نساءً أخريات يمررن أو مررن بتجربة مماثلة. يمكن لقصتكِ أن تذكّرنا، كمجتمع، بما يحدث خلف الأبواب المغلقة. كما تُظهر قصتكِ، إلى جانب قصص نساء أخريات، كيف يؤثر هذا العنف فينا جميعًا.',
+      dialect: 'هذا الأمر يهمنا جميعًا. أنتِ لستِ وحدكِ في هذا.',
+      anonym: 'ستبقى هويتكِ مجهولة، ويمكنكِ في أي وقت سحب قصتكِ. تجري المحادثات في الإطار الذي تختارينه، سواء عبر الإنترنت أو وجهًا لوجه.'
     },
     kontakt: {
       label: 'اتصل بنا',
       title: 'تواصل/ي معنا',
-      intro: 'إذا كنت ترغب/ين في المساهمة في هذا المشروع أو كنت فضوليًا/ة فحسب، يمكنك الوصول إلينا بالطرق التالية:',
+      intro: 'إذا كنتِ ترغبين في المساهمة في هذا المشروع، أو كنتِ تشعرين بالفضول في البداية، يمكنكِ التواصل معنا:',
       telefon: 'الهاتف:',
       email: 'البريد الإلكتروني:',
       instagram: 'إنستغرام:',
       form: {
-        intro: 'أو استخدم/ي نموذج الاتصال. يسعدنا أن نسمع منك ونشكرك على ثقتك ووقتك!',
+        intro: 'أو استخدمي نموذج الاتصال. نتطلع بشوق إلى سماع قصتكِ، ونشكركِ على ثقتكِ ووقتكِ!',
         name: 'الاسم',
         email: 'البريد الإلكتروني',
         nachricht: 'الرسالة',
