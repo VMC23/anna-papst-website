@@ -18,8 +18,8 @@
   --accent-dark: #7B6C96;
   --warm-white:  #F9F8F5;
   --warm-gray:   #8A8490;
-  --text:        #3A3540;
-  --text-light:  #6B6473;
+  --text:        #2A2530;
+  --text-light:  #4A4355;
   --white:       #FFFFFF;
 
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -388,7 +388,7 @@ h1, h2, h3, h4 {
 /* --- Section: Projekt --- */
 .section-projekt {
   background:
-    linear-gradient(180deg, rgba(244, 241, 248, 0.5) 0%, rgba(244, 241, 248, 0.4) 100%),
+    linear-gradient(180deg, rgba(244, 241, 248, 0.7) 0%, rgba(244, 241, 248, 0.6) 100%),
     url('/img/AP_hintergrund_l.webp') center / cover no-repeat;
 }
 
