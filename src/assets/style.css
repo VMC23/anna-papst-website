@@ -538,6 +538,12 @@ h1, h2, h3, h4 {
   color: var(--warm-gray);
 }
 
+.member-role-org {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--warm-gray);
+}
+
 /* --- Section: Kontakt --- */
 .section-kontakt {
   background: var(--warm-white);

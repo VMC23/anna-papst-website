@@ -62,6 +62,14 @@
               <p class="member-role">{{ $t('team.role.produktionsleitung') }}</p>
             </div>
             <div class="team-member">
+              <p class="member-name">Jana Avanzini</p>
+              <p class="member-role">{{ $t('team.role.media') }}</p>
+            </div>
+            <div class="team-member">
+              <p class="member-name">sogar Theater</p>
+              <p class="member-role">{{ $t('team.role.koproduktion') }}</p>
+            </div>
+            <div class="team-member">
               <p class="member-name">Pia Valär</p>
               <p class="member-role">{{ $t('team.role.illustrationen') }}</p>
             </div>
@@ -72,8 +80,14 @@
           </div>
           <div class="team-group">
             <h3>{{ $t('team.group.sounding') }}</h3>
-            <div class="team-member"><p class="member-name">Lucia Tozzi</p></div>
-            <div class="team-member"><p class="member-name">Anja Derungs</p></div>
+            <div class="team-member">
+              <p class="member-name">Lucia Tozzi</p>
+              <p class="member-role-org">medica mondiale</p>
+            </div>
+            <div class="team-member">
+              <p class="member-name">Anja Derungs</p>
+              <p class="member-role-org">Stiftung Frauenhaus Zürich</p>
+            </div>
           </div>
           <div class="team-group team-figur">
             <img src="/img/AP_figur5.webp" alt="" loading="lazy">

@@ -79,6 +79,8 @@ const messages = {
         kostueme: 'Kostüme',
         musik: 'Musik',
         produktionsleitung: 'Produktionsleitung',
+        media: 'Media & Social Media',
+        koproduktion: 'Ko-Produktion',
         illustrationen: 'Illustrationen',
         website: 'Website'
       }
@@ -178,6 +180,8 @@ const messages = {
         kostueme: 'Costumes',
         musik: 'Musique',
         produktionsleitung: 'Direction de production',
+        media: 'Médias & réseaux sociaux',
+        koproduktion: 'Co-production',
         illustrationen: 'Illustrations',
         website: 'Site web'
       }
@@ -277,6 +281,8 @@ const messages = {
         kostueme: 'Costumes',
         musik: 'Music',
         produktionsleitung: 'Production management',
+        media: 'Media & social media',
+        koproduktion: 'Co-production',
         illustrationen: 'Illustrations',
         website: 'Website'
       }
@@ -376,6 +382,8 @@ const messages = {
         kostueme: 'Costumi',
         musik: 'Musica',
         produktionsleitung: 'Direzione di produzione',
+        media: 'Media & social media',
+        koproduktion: 'Co-produzione',
         illustrationen: 'Illustrazioni',
         website: 'Sito web'
       }
@@ -475,6 +483,8 @@ const messages = {
         kostueme: 'Kostümler',
         musik: 'Müzik',
         produktionsleitung: 'Prodüksiyon yönetimi',
+        media: 'Medya & sosyal medya',
+        koproduktion: 'Ko-prodüksiyon',
         illustrationen: 'İllüstrasyonlar',
         website: 'Web sitesi'
       }
@@ -574,6 +584,8 @@ const messages = {
         kostueme: 'الأزياء',
         musik: 'الموسيقى',
         produktionsleitung: 'إدارة الإنتاج',
+        media: 'الإعلام ووسائل التواصل الاجتماعي',
+        koproduktion: 'إنتاج مشترك',
         illustrationen: 'الرسوم التوضيحية',
         website: 'الموقع الإلكتروني'
       }
