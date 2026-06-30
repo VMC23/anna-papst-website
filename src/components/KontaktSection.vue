@@ -38,7 +38,7 @@
               {{ datenschutzBefore }}<a href="#datenschutz-page" @click.prevent="scrollTo('datenschutz-page')">{{ $t('kontakt.form.datenschutzLink') }}</a>{{ datenschutzAfter }}
             </label>
           </div>
-          <div ref="turnstileEl" class="turnstile-wrapper"></div>
+          <div v-show="!turnstileToken" ref="turnstileEl" class="turnstile-wrapper"></div>
           <button type="submit" class="btn btn-submit" :disabled="!turnstileToken || submitting">{{ submitting ? '...' : $t('kontakt.form.submit') }}</button>
           <div class="form-success" :class="{ visible: submitted }">
             <p>{{ $t('kontakt.form.success') }}</p>

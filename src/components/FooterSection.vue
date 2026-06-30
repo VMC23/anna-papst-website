@@ -20,6 +20,7 @@
         </div>
       </div>
       <div class="footer-bottom">
+        <p>{{ $t('team.role.illustrationen') }}: Pia Valär</p>
         <p>Website: <a href="https://valentime.space" target="_blank" rel="noopener">Valentin:e Brasser</a></p>
         <p>{{ $t('footer.copyright') }}</p>
       </div>

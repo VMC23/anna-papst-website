@@ -636,6 +636,10 @@ h1, h2, h3, h4 {
   text-decoration: underline;
 }
 
+.turnstile-wrapper {
+  margin: 0.5rem 0;
+}
+
 .btn-submit {
   width: 100%;
   padding: 1rem;
@@ -727,8 +731,8 @@ h1, h2, h3, h4 {
 }
 
 .footer-bottom p {
-  font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* --- RTL Support (Arabic) --- */
