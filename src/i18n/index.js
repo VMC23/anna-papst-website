@@ -7,8 +7,8 @@ const messages = {
       title: 'Deine Geschichte ist es wert,{br}gehört zu werden.',
       intro: 'Wir bringen 2027 ein Theaterstück über Gewalt in der Partnerschaft und in der Ehe auf die Bühne — und suchen Menschen, die bereit sind, ihre Geschichte zu teilen.',
       btn: 'Melde dich bei uns',
-      notice: 'Befindest du dich in einer akuten Gefahrensituation?',
-      noticeLink: 'Opferhilfe Schweiz',
+      notice: 'Erlebst du aktuell Gewalt in deiner Beziehung und brauchst Hilfe?',
+      noticeLink: 'Opferhilfe Schweiz 142',
       text1: 'Wir sind ein Team aus verschiedenen Künstler*innen. Wir führen Gespräche mit Betroffenen und Expert*innen und machen aus diesen Interviews ein Theaterstück. Wenn Du Gewalt im häuslichen Bereich erlebt hast und bereit bist, darüber zu sprechen, wollen wir zuhören und weitertragen, was Du zu erzählen hast.',
       text2: 'Wir glauben nämlich, dass das Schweigen und die Scham in der Schweiz die Bekämpfung dieser Gewalt erschweren. Deine Erzählung kann dazu beitragen, diese Stille zu durchbrechen und anderen helfen, die etwas Ähnliches erleben oder erlebt haben. Deine Geschichte kann uns als Gesellschaft daran erinnern, was hinter geschlossenen Türen passiert. Und deine Geschichte, zusammen mit den Geschichten anderer, zeigt auf, wie diese Gewalt uns alle betrifft.',
       dialect: 'Es gaht eus alli öppis ah. Du bisch nöd allei mit dem.',
@@ -56,7 +56,7 @@ const messages = {
       },
       card4: {
         title: 'Trägerschaft',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
@@ -157,7 +157,7 @@ const messages = {
       },
       card4: {
         title: 'Organisation',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
@@ -258,7 +258,7 @@ const messages = {
       },
       card4: {
         title: 'Organisation',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
@@ -359,7 +359,7 @@ const messages = {
       },
       card4: {
         title: 'Ente promotore',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
@@ -460,7 +460,7 @@ const messages = {
       },
       card4: {
         title: 'Kuruluş',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
@@ -561,7 +561,7 @@ const messages = {
       },
       card4: {
         title: 'الجهة الراعية',
-        text1: 'Für zeitgeschehen e.v.',
+        text1: 'zeitgeschehen e.v.',
         text2: ''
       }
     },
