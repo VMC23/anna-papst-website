@@ -27,7 +27,7 @@ const messages = {
         email: 'E-Mail',
         nachricht: 'Nachricht',
         nachrichtHint: '(optional, max. 750 Zeichen)',
-        datenschutz: 'Ich habe die {link} gelesen und stimme der vertraulichen Verarbeitung meiner Daten zu. Alle Angaben werden streng vertraulich behandelt.',
+        datenschutz: 'Ich habe die [link] gelesen und stimme der vertraulichen Verarbeitung meiner Daten zu. Alle Angaben werden streng vertraulich behandelt.',
         datenschutzLink: 'Datenschutzerklärung',
         submit: 'Absenden',
         success: 'Danke für dein Schreiben. Wir melden uns bei dir.'
@@ -126,7 +126,7 @@ const messages = {
         email: 'E-mail',
         nachricht: 'Message',
         nachrichtHint: '(facultatif, max. 750 caractères)',
-        datenschutz: 'J\'ai lu la {link} et j\'accepte le traitement confidentiel de mes données. Toutes les informations sont traitées de manière strictement confidentielle.',
+        datenschutz: 'J\'ai lu la [link] et j\'accepte le traitement confidentiel de mes données. Toutes les informations sont traitées de manière strictement confidentielle.',
         datenschutzLink: 'déclaration de protection des données',
         submit: 'Envoyer',
         success: 'Merci pour ton message. Nous te recontacterons.'
@@ -225,7 +225,7 @@ const messages = {
         email: 'Email',
         nachricht: 'Message',
         nachrichtHint: '(optional, max. 750 characters)',
-        datenschutz: 'I have read the {link} and agree to the confidential processing of my data. All information is treated in strict confidence.',
+        datenschutz: 'I have read the [link] and agree to the confidential processing of my data. All information is treated in strict confidence.',
         datenschutzLink: 'privacy policy',
         submit: 'Send',
         success: 'Thank you for your message. We will get back to you.'
@@ -324,7 +324,7 @@ const messages = {
         email: 'E-mail',
         nachricht: 'Messaggio',
         nachrichtHint: '(facoltativo, max. 750 caratteri)',
-        datenschutz: 'Ho letto la {link} e acconsento al trattamento confidenziale dei miei dati. Tutte le informazioni vengono trattate in modo strettamente confidenziale.',
+        datenschutz: 'Ho letto la [link] e acconsento al trattamento confidenziale dei miei dati. Tutte le informazioni vengono trattate in modo strettamente confidenziale.',
         datenschutzLink: 'dichiarazione sulla protezione dei dati',
         submit: 'Invia',
         success: 'Grazie per il tuo messaggio. Ti ricontatteremo.'
@@ -423,7 +423,7 @@ const messages = {
         email: 'E-posta',
         nachricht: 'Mesaj',
         nachrichtHint: '(isteğe bağlı, maks. 750 karakter)',
-        datenschutz: '{link} okudum ve verilerimin gizli olarak işlenmesini kabul ediyorum. Tüm bilgiler kesinlikle gizli tutulur.',
+        datenschutz: '[link] okudum ve verilerimin gizli olarak işlenmesini kabul ediyorum. Tüm bilgiler kesinlikle gizli tutulur.',
         datenschutzLink: 'Gizlilik politikasını',
         submit: 'Gönder',
         success: 'Mesajın için teşekkürler. Sana geri döneceğiz.'
@@ -522,7 +522,7 @@ const messages = {
         email: 'البريد الإلكتروني',
         nachricht: 'الرسالة',
         nachrichtHint: '(اختياري، حد أقصى 750 حرفًا)',
-        datenschutz: 'لقد قرأت {link} وأوافق على المعالجة السرية لبياناتي. يتم التعامل مع جميع المعلومات بسرية تامة.',
+        datenschutz: 'لقد قرأت [link] وأوافق على المعالجة السرية لبياناتي. يتم التعامل مع جميع المعلومات بسرية تامة.',
         datenschutzLink: 'سياسة الخصوصية',
         submit: 'إرسال',
         success: 'شكرًا لرسالتك. سنتواصل معك قريبًا.'

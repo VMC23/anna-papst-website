@@ -9,7 +9,7 @@
           <div class="kontakt-channels">
             <p><strong>{{ $t('kontakt.telefon') }}</strong> <a href="tel:+41797572284">079 757 22 84</a></p>
             <p><strong>{{ $t('kontakt.email') }}</strong> <a href="mailto:kontakt@ichau.net">kontakt@ichau.net</a></p>
-            <p><strong>{{ $t('kontakt.instagram') }}</strong> <a href="https://instagram.com/ichau.ichau" target="_blank" rel="noopener">@ichau.ichau</a></p>
+            <p><strong>{{ $t('kontakt.instagram') }}</strong> <a href="https://www.instagram.com/ichau.ichau" target="_blank" rel="noopener">@ichau.ichau</a></p>
           </div>
           <p>{{ $t('kontakt.form.intro') }}</p>
           <p class="signature"><em>Anna &amp; Natania</em></p>
@@ -100,13 +100,13 @@ onBeforeUnmount(() => {
 
 const datenschutzBefore = computed(() => {
   const full = t('kontakt.form.datenschutz')
-  const idx = full.indexOf('{link}')
+  const idx = full.indexOf('[link]')
   return idx >= 0 ? full.substring(0, idx) : full
 })
 
 const datenschutzAfter = computed(() => {
   const full = t('kontakt.form.datenschutz')
-  const idx = full.indexOf('{link}')
+  const idx = full.indexOf('[link]')
   return idx >= 0 ? full.substring(idx + 6) : ''
 })
 
