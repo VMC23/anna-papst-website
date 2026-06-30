@@ -57,7 +57,7 @@ const messages = {
       card4: {
         title: 'Trägerschaft',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'Anna Papst, Regisseurin | Natania Prezant, Dramaturgin | Ursina Greuel, Leiterin sogar Theater'
+        text2: ''
       }
     },
     team: {
@@ -156,7 +156,7 @@ const messages = {
       card4: {
         title: 'Organisation',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'Anna Papst, metteuse en scène | Natania Prezant, dramaturge | Ursina Greuel, directrice sogar Theater'
+        text2: ''
       }
     },
     team: {
@@ -255,7 +255,7 @@ const messages = {
       card4: {
         title: 'Organisation',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'Anna Papst, director | Natania Prezant, dramaturg | Ursina Greuel, director sogar Theater'
+        text2: ''
       }
     },
     team: {
@@ -354,7 +354,7 @@ const messages = {
       card4: {
         title: 'Ente promotore',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'Anna Papst, regista | Natania Prezant, dramaturga | Ursina Greuel, direttrice sogar Theater'
+        text2: ''
       }
     },
     team: {
@@ -453,7 +453,7 @@ const messages = {
       card4: {
         title: 'Kuruluş',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'Anna Papst, yönetmen | Natania Prezant, dramaturg | Ursina Greuel, sogar Theater müdürü'
+        text2: ''
       }
     },
     team: {
@@ -552,7 +552,7 @@ const messages = {
       card4: {
         title: 'الجهة الراعية',
         text1: 'Für zeitgeschehen e.v.',
-        text2: 'آنا بابست، مخرجة | ناتانيا بريزنت، دراماتورغ | أورسينا غرويل، مديرة مسرح sogar'
+        text2: ''
       }
     },
     team: {
