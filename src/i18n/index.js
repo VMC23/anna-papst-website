@@ -137,18 +137,18 @@ const messages = {
     projekt: {
       label: 'Le projet',
       title: 'Contexte',
-      text1: 'Dans son prochain projet théâtral, l\'autrice et metteuse en scène Anna Papst donne la parole aux personnes concernées par la violence domestique et familiale. Son objectif est de donner une voix aux personnes et une plateforme au sujet. Pour cela, elle mène des entretiens approfondis avec des expert·e·s de la pratique et de la recherche et lance un appel aux personnes concernées qui souhaitent raconter leur histoire.',
-      text2: 'La protection des interlocuteur·rice·s est la priorité absolue. La phase des entretiens s\'étend sur une période de 6 mois, durant laquelle le processus, du premier entretien au texte théâtral final, est mené avec soin. Aucun·e des interlocuteur·rice·s ne monte sur scène, tous les rôles sont tenus par des professionnel·le·s.',
-      text3: 'Anna Papst possède déjà une longue expérience de projets théâtraux documentaires avec des groupes vulnérables. De plus, elle se forme pour ce projet à l\'approche sensible au stress et aux traumatismes (STA®) de medica mondiale. Tout au long du projet, Anna Papst est accompagnée et régulièrement coachée par les spécialistes Anja Derungs (Fondation Maison des femmes de Zurich) et Lucia Tozzi (medica mondiale foundation switzerland).',
+      text1: 'Dans son prochain projet théâtral, l\'auteure et metteuse en scène Anna Papst donne la parole à des personnes victimes de violences domestiques et familiales. Son objectif est de donner une voix à ces personnes et d\'offrir une tribune à ce sujet. À cette fin, elle mène des entretiens approfondis avec des expert·e·s issus du terrain et de la recherche sur ce thème, et lance un appel aux personnes concernées qui souhaitent raconter leur histoire.',
+      text2: 'La protection des personnes interrogées est ici une priorité absolue. La phase d\'entretiens s\'étend sur une période de six mois, durant laquelle le processus, de la première rencontre au texte théâtral final, se déroule avec beaucoup de délicatesse. Aucune des personnes interrogées ne monte elle-même sur scène ; tous les rôles sont interprétés par des professionnels.',
+      text3: 'Anna Papst possède déjà une longue expérience dans le domaine des projets de théâtre documentaire avec des groupes vulnérables. De plus, elle suit actuellement une formation sur l\'approche sensible au stress et aux traumatismes (STA®) de medica mondiale en vue du projet à venir. Tout au long du projet, Anna Papst est accompagnée et régulièrement encadrée par les expertes Anja Derungs (Fondation Frauenhaus Zürich) et Lucia Tozzi (medica mondiale foundation switzerland).',
       card1: {
         title: 'Entretiens',
-        text1: 'Les interlocuteur·rice·s peuvent choisir librement où elles souhaitent raconter leur vie : chez elles, dans un espace neutre ou en ligne. Si elles le souhaitent, une personne accompagnante peut être présente lors de l\'entretien.',
-        text2: 'L\'appel est diffusé en allemand, anglais, français, italien, turc et arabe. Lors des entretiens en italien, turc et arabe, une interprète sera présente.'
+        text1: 'Les participant·e·s sont libres de choisir l\'endroit où ils/elles préfèrent raconter leur histoire : chez eux/elles, dans un lieu neutre ou en ligne. S\'ils/elles le souhaitent, une personne d\'accompagnement peut également être présente lors de cet entretien.',
+        text2: 'L\'appel à participation est diffusé en allemand, anglais, français, italien, turc et arabe. Une traductrice sera présente lors des entretiens en italien, turc et arabe.'
       },
       card2: {
         title: 'De l\'entretien au texte',
-        text1: 'À partir de l\'entretien enregistré, une transcription mot à mot est établie. De cette transcription naît une première version du texte. Celle-ci est renvoyée à l\'interlocutrice, avec la question de savoir si elle souhaite ajouter, annoter ou modifier quelque chose. Le texte fait des allers-retours entre l\'autrice et l\'interlocutrice jusqu\'à ce que cette dernière en soit satisfaite.',
-        text2: 'Ce n\'est qu\'alors que le texte devient partie intégrante de la pièce. L\'interlocutrice a à tout moment la possibilité de retirer complètement sa participation. Toutes les interlocutrices restent anonymes, les lieux de résidence et autres informations permettant de les identifier sont également modifiés.'
+        text1: 'Une transcription fidèle à la lettre est établie à partir de l\'entretien enregistré. Une première version du texte est rédigée à partir de cette transcription. Celle-ci est renvoyée à la personne interrogée, qui est invitée à ajouter, commenter ou modifier le texte si elle le souhaite. Le texte fait des allers-retours entre l\'auteure et l\'interlocutrice jusqu\'à ce que cette dernière donne son accord. Ce n\'est qu\'alors que le texte devient partie intégrante de la pièce. L\'interlocutrice a à tout moment la possibilité de retirer complètement sa participation. Toutes les interlocutrices restent anonymes, les lieux de résidence et autres informations permettant de les identifier sont également modifiés.',
+        text2: ''
       },
       card3: {
         title: 'Sur scène',
@@ -238,18 +238,18 @@ const messages = {
     projekt: {
       label: 'The project',
       title: 'Background',
-      text1: 'In her upcoming theatre project, author and director Anna Papst gives voice to those affected by domestic and family violence. Her goal is to give the people a voice and the topic a platform. To this end, she conducts in-depth conversations with practitioners and researchers and launches a call for affected individuals who wish to share their story.',
-      text2: 'The protection of the interviewees is the top priority. The interview phase spans a period of 6 months, during which the process from the first conversation to the finished theatre text is handled with care. None of the interviewees appear on stage — all roles are performed by professionals.',
-      text3: 'Anna Papst already has extensive experience with documentary theatre projects involving vulnerable groups. Additionally, she is training in the Stress and Trauma-Sensitive Approach (STA®) by medica mondiale for this project. Throughout the project, Anna Papst is accompanied and regularly coached by the specialists Anja Derungs (Women\'s Shelter Foundation Zurich) and Lucia Tozzi (medica mondiale foundation switzerland).',
+      text1: 'In her upcoming theater project, author and director Anna Papst gives a voice to survivors of domestic and family violence. Her goal is to give these individuals a voice and provide a platform for the issue. To this end, she is conducting in-depth discussions with experts from both the field and academia on the topic and is issuing a call for survivors who would like to share their stories.',
+      text2: 'The protection of the interviewees is the top priority. The interview phase spans a period of six months, during which the process\u2014from the initial interview to the finished theater script\u2014is carefully managed. None of the interviewees will appear on stage themselves; all roles will be played by professional actors.',
+      text3: 'Anna Papst already has many years of experience with documentary theater projects involving vulnerable groups. In addition, she is undergoing training in medica mondiale\'s Stress and Trauma-Sensitive Approach (STA\u00AE) for the upcoming project. Throughout the entire project, Anna Papst will be supported and regularly coached by experts Anja Derungs (Z\u00FCrich Women\'s Shelter Foundation) and Lucia Tozzi (medica mondiale foundation switzerland).',
       card1: {
         title: 'Conversations',
-        text1: 'The interviewees are free to choose where they would like to share their story: at their home, in a neutral space, or online. If they wish, a support person can also be present during the conversation.',
-        text2: 'The call is distributed in German, English, French, Italian, Turkish, and Arabic. An interpreter will be present for conversations in Italian, Turkish, and Arabic.'
+        text1: 'Participants are free to choose where they would most like to share their life stories: at home, in a neutral space, or online. If they wish, a support person may also be present during the interview.',
+        text2: 'The call for participants is being distributed in German, English, French, Italian, Turkish, and Arabic. A translator will be present for conversations in Italian, Turkish, and Arabic.'
       },
       card2: {
         title: 'From conversation to text',
-        text1: 'A word-for-word transcript is created from the recorded conversation. From this transcript, a first text version is crafted. This is sent back to the interviewee, asking whether she would like to add, comment on, or change anything. The text goes back and forth between the author and the interviewee until the interviewee is satisfied.',
-        text2: 'Only then does the text become part of the overall theatre production. The interviewee can withdraw her participation completely at any time throughout this process. All interviewees remain anonymous — places of residence and other identifying information are also changed.'
+        text1: 'A verbatim transcript is created from the recorded conversation. A first draft of the text is then crafted from this transcript. This draft is sent back to the interviewee, who is asked if she would like to add anything, make any comments, or request any changes to the text. The text goes back and forth between the author and the interviewee until the interviewee is satisfied with it. Only then does the text become part of the overall play. During this process, the interviewee also has the option at any time to withdraw from the project entirely. All interviewees remain anonymous; places of residence and other details that could identify them are also altered.',
+        text2: ''
       },
       card3: {
         title: 'On stage',
@@ -339,18 +339,18 @@ const messages = {
     projekt: {
       label: 'Il progetto',
       title: 'Contesto',
-      text1: 'Nel suo prossimo progetto teatrale, l\'autrice e regista Anna Papst dà voce alle persone colpite dalla violenza domestica e familiare. Il suo obiettivo è dare una voce alle persone e una piattaforma al tema. A tal fine, conduce colloqui approfonditi con esperte/i della pratica e della ricerca e lancia un appello alle persone coinvolte che desiderano raccontare la propria storia.',
-      text2: 'La protezione delle interlocutrici e degli interlocutori è la massima priorità. La fase dei colloqui si estende su un periodo di 6 mesi, durante i quali il processo, dal primo colloquio al testo teatrale definitivo, viene gestito con cura. Nessuna delle interlocutrici sale sul palco, tutti i ruoli sono interpretati da professionisti.',
-      text3: 'Anna Papst vanta già una lunga esperienza in progetti teatrali documentari con gruppi vulnerabili. Inoltre, per questo progetto si forma nell\'approccio sensibile allo stress e al trauma (STA®) di medica mondiale. Durante l\'intero progetto, Anna Papst è accompagnata e regolarmente seguita dalle specialiste Anja Derungs (Fondazione Casa delle donne di Zurigo) e Lucia Tozzi (medica mondiale foundation switzerland).',
+      text1: 'Nel suo prossimo progetto teatrale, l\'autrice e regista Anna Papst dà voce alle vittime di violenza domestica e familiare. Il suo obiettivo è quello di dare voce alle persone e una piattaforma a questo tema. A tal fine, conduce colloqui approfonditi con esperti del settore e ricercatori sull\'argomento e lancia un appello alle vittime che desiderano raccontare la propria storia.',
+      text2: 'La protezione delle persone intervistate è la priorità assoluta. La fase di raccolta delle testimonianze si estende su un periodo di 6 mesi, durante i quali viene portato avanti con delicatezza il processo che va dal primo colloquio al testo teatrale definitivo. Nessuna delle persone intervistate salirà sul palco: tutti i ruoli saranno interpretati da attori professionisti.',
+      text3: 'Anna Papst vanta già una pluriennale esperienza in progetti di teatro documentario con gruppi vulnerabili. Inoltre, per il prossimo progetto, sta seguendo una formazione sull\'approccio sensibile allo stress e al trauma (STA®) di medica mondiale. Durante l\'intero progetto, Anna Papst sarà affiancata e regolarmente seguita dalle esperte Anja Derungs (Fondazione Frauenhaus Zürich) e Lucia Tozzi (medica mondiale foundation switzerland).',
       card1: {
         title: 'Colloqui',
-        text1: 'Le interlocutrici possono scegliere liberamente dove desiderano raccontare la propria vita: a casa propria, in uno spazio neutrale o online. Se lo desiderano, una persona di accompagnamento può essere presente al colloquio.',
-        text2: 'L\'appello viene diffuso in tedesco, inglese, francese, italiano, turco e arabo. Nei colloqui in italiano, turco e arabo sarà presente una traduttrice.'
+        text1: 'Le persone intervistate possono scegliere liberamente dove preferiscono raccontare la propria storia: a casa propria, in uno spazio neutrale o online. Se lo desiderano, a questo colloquio può partecipare anche una persona di accompagnamento.',
+        text2: 'Il bando viene diffuso in tedesco, inglese, francese, italiano, turco e arabo. Durante i colloqui in italiano, turco e arabo sarà presente una traduttrice.'
       },
       card2: {
         title: 'Dal colloquio al testo',
-        text1: 'Dal colloquio registrato viene creata una trascrizione parola per parola. Da questa trascrizione nasce una prima versione del testo. Questa viene rinviata all\'interlocutrice, con la domanda se desidera aggiungere, annotare o modificare qualcosa. Il testo viaggia avanti e indietro tra l\'autrice e l\'interlocutrice fino a quando quest\'ultima ne è soddisfatta.',
-        text2: 'Solo allora il testo diventa parte dello spettacolo. L\'interlocutrice ha in qualsiasi momento la possibilità di ritirare completamente la propria partecipazione. Tutte le interlocutrici restano anonime, anche i luoghi di residenza e altre informazioni che permetterebbero di identificarle vengono modificati.'
+        text1: 'Dal colloquio registrato viene redatta una trascrizione fedele alla parola. Da questa trascrizione viene elaborata una prima bozza di testo. Questa viene poi inviata all\'interlocutrice, chiedendole se desidera aggiungere, commentare o modificare qualcosa nel testo. Il testo passa avanti e indietro tra l\'autrice e l\'interlocutrice finché quest\'ultima non lo approva. Solo allora il testo diventa parte integrante dell\'opera teatrale. Durante questo processo, l\'interlocutrice ha in qualsiasi momento la possibilità di ritirare completamente la propria partecipazione. Tutte le interlocutrici e gli interlocutori restano anonimi, anche i luoghi di residenza e altre informazioni che potrebbero permettere di identificarli vengono modificati.',
+        text2: ''
       },
       card3: {
         title: 'Sul palco',
@@ -440,18 +440,18 @@ const messages = {
     projekt: {
       label: 'Proje',
       title: 'Arka Plan',
-      text1: 'Yazar ve yönetmen Anna Papst, yaklaşan tiyatro projesinde aile içi ve ailevi şiddetten etkilenen kişilere söz veriyor. Amacı, insanlara bir ses ve konuya bir platform vermektir. Bunun için uygulama ve araştırma alanındaki uzmanlarla yoğun görüşmeler yapıyor ve hikayesini anlatmak isteyen etkilenen kişilere bir çağrı yayınlıyor.',
-      text2: 'Görüşme partnerlerinin korunması en üst önceliktir. Görüşme aşaması 6 aylık bir süreye yayılır; bu süre zarfında ilk görüşmeden bitmiş tiyatro metnine kadar olan süreç özenle yürütülür. Görüşme partnerlerinin hiçbiri sahneye çıkmaz, tüm roller profesyoneller tarafından üstlenilir.',
-      text3: 'Anna Papst, savunmasız gruplarla belgesel tiyatro projelerinde zaten uzun yıllara dayanan bir deneyime sahiptir. Ayrıca bu proje için medica mondiale\'nin Stres ve Travmaya Duyarlı Yaklaşım (STA®) eğitimini almaktadır. Proje boyunca Anna Papst, uzmanlar Anja Derungs (Zürih Kadın Sığınma Evi Vakfı) ve Lucia Tozzi (medica mondiale foundation switzerland) tarafından eşlik edilmekte ve düzenli olarak koçluk almaktadır.',
+      text1: 'Yazar ve yönetmen Anna Papst, yakında sahnelenecek tiyatro projesinde aile içi ve ev içi şiddet mağdurlarına söz veriyor. Amacı, mağdurlara bir ses vermek ve bu konuya bir platform sunmak. Bunun için, konuyla ilgili uygulama ve araştırma alanlarından uzmanlarla yoğun görüşmeler yürütüyor ve hikayelerini anlatmak isteyen mağdurlara bir çağrı yapıyor.',
+      text2: 'Bu süreçte, görüşme ortaklarının korunması en öncelikli konudur. Görüşme aşaması 6 aylık bir süreyi kapsıyor ve ilk görüşmeden bitmiş tiyatro metnine kadar olan süreç özenle yürütülüyor. Görüşme ortaklarından hiçbiri sahneye çıkmayacak; tüm roller profesyonel oyuncular tarafından üstlenilecek.',
+      text3: 'Anna Papst, savunmasız gruplarla gerçekleştirdiği belgesel tiyatro projelerinde uzun yıllara dayanan bir deneyime sahiptir. Ayrıca, yaklaşan proje için medica mondiale\'nin Stres ve Travmaya Duyarlı Yaklaşım (STA®) programı kapsamında eğitim almaktadır. Proje süresince Anna Papst, uzmanlar Anja Derungs (Zürih Kadın Sığınma Evi Vakfı) ve Lucia Tozzi (medica mondiale foundation switzerland) tarafından desteklenmekte ve düzenli olarak koçluk almaktadır.',
       card1: {
         title: 'Görüşmeler',
-        text1: 'Görüşme partnerleri hayatlarını nerede anlatmak istediklerini özgürce seçebilirler: evlerinde, tarafsız bir mekanda veya çevrimiçi. İsterlerse görüşmeye bir refakatçi de eşlik edebilir.',
-        text2: 'Çağrı Almanca, İngilizce, Fransızca, İtalyanca, Türkçe ve Arapça olarak dağıtılmaktadır. İtalyanca, Türkçe ve Arapça görüşmelerde bir çevirmen hazır bulunacaktır.'
+        text1: 'Görüşme katılımcıları, hayatlarından en çok hangi konuları anlatmak istediklerini serbestçe seçebilirler: Kendi evlerinde, tarafsız bir mekânda veya çevrimiçi olarak. İsterlerse, bu görüşmeye bir refakatçi de katılabilir.',
+        text2: 'Çağrı, Almanca, İngilizce, Fransızca, İtalyanca, Türkçe ve Arapça dillerinde duyurulacaktır. İtalyanca, Türkçe ve Arapça yapılan görüşmelerde bir çevirmen hazır bulunacaktır.'
       },
       card2: {
         title: 'Görüşmeden metne',
-        text1: 'Kaydedilen görüşmeden kelimesi kelimesine bir transkript oluşturulur. Bu transkriptten ilk metin versiyonu çıkarılır. Bu versiyon, eklemek, not düşmek veya değiştirmek isteyip istemediği sorusuyla görüşme partnerine geri gönderilir. Metin, görüşme partneri memnun kalana kadar yazar ve görüşme partneri arasında gidip gelir.',
-        text2: 'Ancak o zaman metin tiyatro oyununun bir parçası olur. Görüşme partneri bu süreç boyunca katılımını tamamen geri çekme hakkına sahiptir. Tüm görüşme partnerleri anonim kalır, ikamet yerleri ve kendilerini tanımlamaya yarayabilecek diğer bilgiler de değiştirilir.'
+        text1: 'Kaydedilen görüşmeden kelimesi kelimesine bir transkript hazırlanır. Bu transkriptten ilk metin taslağı oluşturulur. Bu taslak, görüşme ortağına geri gönderilir ve metne bir şey eklemek, not düşmek veya değişiklik yapmak isteyip istemediği sorulur. Metin, görüşme ortağı metni onaylayana kadar yazar ile görüşme ortağı arasında gidip gelir. Ancak o zaman metin, tiyatro oyununun bir parçası haline gelir. Görüşme ortağı, bu süreç boyunca istediği zaman katılımını tamamen geri çekme hakkına sahiptir. Tüm görüşme ortakları anonim kalır; ikamet yerleri ve kendilerini tanımlamaya yarayabilecek diğer bilgiler de değiştirilir.',
+        text2: ''
       },
       card3: {
         title: 'Sahnede',
