@@ -7,7 +7,7 @@
         <a href="#kontakt" class="btn" @click.prevent="scrollTo('kontakt')">{{ $t('hero.btn') }}</a>
         <div class="hero-notice">
           <p>{{ $t('hero.notice') }}<br>
-            <a href="https://telefon-gegen-gewalt.ch/" target="_blank" rel="noopener">{{ $t('hero.noticeLink') }} &rarr;</a>
+            <a href="https://www.opferhilfe-schweiz.ch/de/" target="_blank" rel="noopener">{{ $t('hero.noticeLink') }} &rarr;</a>
           </p>
         </div>
       </div>
